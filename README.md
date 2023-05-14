@@ -1,16 +1,17 @@
 # api_http_request
 
-A new Flutter project.
+In this template, we use Http package for RESTful API.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+![api](https://github.com/SirinK2/api_http_request/assets/92253615/4ee50d8c-98e3-4d18-a579-65fb5872441b)
+## Folder Structure
+## Constant
+  ### app string
+  base url.
+## Logic
+  ### controller 
+  ### service
+  CRUD functions.
+     
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![api_folders](https://github.com/SirinK2/api_http_request/assets/92253615/bfdc117d-b41b-43fd-b80c-62be578b7e00)
