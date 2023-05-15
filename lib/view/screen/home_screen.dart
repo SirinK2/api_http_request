@@ -32,6 +32,7 @@ class HomeScreen extends StatelessWidget {
             return FutureBuilder(
                 future: controller.getAllData(),
                 builder: (context, snapshot) {
+                  print('snapshot.data?.length ${snapshot.data?.length}');
                   if (snapshot.hasData) {
                     if (snapshot.connectionState == ConnectionState.done &&
                         snapshot.data!.isNotEmpty) {
