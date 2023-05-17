@@ -26,7 +26,7 @@ class ApiService {
   }) async {
     try {
       final response = await _client.post(
-        Uri.parse(ApiString.baseUrl),
+        Uri.parse(url),
         headers: headers,
         body: jsonEncode(body),
       );

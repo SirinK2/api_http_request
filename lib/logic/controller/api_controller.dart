@@ -9,6 +9,7 @@ class ApiController extends GetxController {
   TextEditingController titleController = TextEditingController();
   TextEditingController descriptionController = TextEditingController();
   TextEditingController dateController = TextEditingController();
+
   final Map<String, String> headers = {
     'Access-Control-Allow-Origin': '*',
     'Content-type': 'application/json',
