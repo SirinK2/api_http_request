@@ -93,38 +93,3 @@ class HomeScreen extends StatelessWidget {
     );
   }
 }
-
-/*
-          child: GetBuilder<ProductController>(builder: (controller) {
-            return FutureBuilder(
-                future: controller.getAllProduct(),
-                builder: (context, snapshot) {
-                  print('snapshot.data?.length ${snapshot.data?.length}');
-                  if (snapshot.hasData) {
-                    if (snapshot.connectionState == ConnectionState.done &&
-                        snapshot.data!.isNotEmpty) {
-                      return ListView.builder(
-                        itemCount: snapshot.data?.length,
-                        itemBuilder: (context, index) {
-                          var data = snapshot.data?[index];
-                          return ListItem(
-                              data: data, controller: controller,);
-                        },
-                      );
-                    } else {
-                      return const Center(
-                        child: Text("THERE IS NO ITEMS"),
-                      );
-                    }
-                  } else if(snapshot.hasError)
-                  {
-                    return Text(snapshot.error.toString());
-                  }else {
-                    return const Center(
-                      child: Text("THERE IS NO"),
-                    );
-                  }
-                });
-          }),
-
- */
